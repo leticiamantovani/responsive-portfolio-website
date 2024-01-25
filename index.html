@@ -24,7 +24,7 @@
                 <div class="nav__menu" id="nav-menu">
                     <ul class="nav__list grid">
                         <li class="nav__item">
-                            <a href="#home" class="nav__link">
+                            <a href="#home" class="nav__link active-link">
                                 <i class="uil uil-estate nav__icon"></i> Home
                             </a>
                         </li>
@@ -59,6 +59,11 @@
                 </div>
 
                 <div class="nav__btns">
+
+                    <!-- theme change button -->
+
+                    <i class="uil uil-moon change-theme" id="theme-button"></i>
+
                     <div class="nav__toggle" id="nav-toggle">
                         <i class="uil uil-apps"></i>
                     </div>
@@ -734,7 +739,7 @@
                         </div contact information>
 
                         <div class="contact__information">
-                            <i class="uil uil-enveloper contact__icon"></i>
+                            <i class="uil uil-envelope contact__icon"></i>
                             
                             <div>
                                 <h3 class="contact__title">Email</h3>
@@ -743,7 +748,7 @@
                         </div contact information>
 
                         <div class="contact__information">
-                            <i class="uil uil-map-maker contact__icon"></i>
+                            <i class="uil uil-map-marker contact__icon"></i>
                             
                             <div>
                                 <h3 class="contact__title">Location</h3>
@@ -788,11 +793,46 @@
 
         <!--==================== FOOTER ====================-->
         <footer class="footer">
-         
+            <div class="footer__bg">
+                <div class="footer__container container grid">
+                    <div>
+                        <h1 class="footer__title">Leticia</h1>
+                        <span class="footer__subtitle">Backend developer</span>
+                    </div>
+
+                    <ul class="footer__links">
+                        <li>
+                            <a href="#services" class="footer__link">Services</a>
+                        </li>
+                        <li>
+                            <a href="#portfolio" class="footer__link">Portfolio</a>
+                        </li>
+                        <li>
+                            <a href="#contact" class="footer__link">ContactMe</a>
+                        </li>
+                    </ul>
+
+                    <div class="footer__socials">
+                        <a href="https://www.linkedin.com/in/leticia-mantovani-a61356161/" target="_blank" class="footer__social">
+                            <i class="uil uil-linkedin-alt"></i>
+                        </a>
+                        <a href="https://github.com/leticiamantovani" target="_blank" class="footer__social">
+                            <i class="uil uil-github-alt"></i>
+                        </a>
+                        <a href="https://www.instagram.com/lleticiamantovani/" target="_blank" class="footer__social">
+                            <i class="uil uil-instagram-alt"></i>
+                        </a>
+                    </div>
+
+                </div>
+                <p class="footer__copy">Made with <i class="uil uil-heart-alt"></i> by Leticia. All right reserved</p>
+            </div>
         </footer>
         
         <!--==================== SCROLL TOP ====================-->
-        
+        <a href="" class="scrollup" id="scroll-up">
+            <i class="uil uil-arrow-up scrollup__icon"></i>
+        </a>
 
         <!--==================== SWIPER JS ====================-->
         <script src="assets/js/swiper-bundle.min.js"></script>
